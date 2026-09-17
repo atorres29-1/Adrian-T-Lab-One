@@ -1,4 +1,9 @@
 name = input("Enter your name: ")
-age = input("Enter your age: ")
+age = int(input("Enter your age: "))
 color = input("Enter your favorite color: ")
-print("Hello,", name, "you are", age, "and your favorite color is", color, ".")
+if age < 13:
+	print("Hello,", name, "you are a child and your favorite color is", color, ".")
+if 13 <= age <= 18:
+	print("Hello,", name, "you are a teenager and your favorite color is", color, ".")
+if age > 18:
+	print("Hello,", name, "you are an adult and your favorite color is", color, ".")
