@@ -1,2 +1,4 @@
 name = input("Enter your name: ")
-print("Hello", name)
+age = input("Enter your age: ")
+color = input("Enter your favorite color: ")
+print("Hello,", name, "you are", age, "and your favorite color is", color, ".")
